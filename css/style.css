@@ -1,0 +1,219 @@
+body{
+	background:#5060b8;
+}
+header{
+	height:100vh;
+	text-align:center;
+	position:relative;
+}
+body*{
+	box-sizing:border-box;
+}
+nav{
+	padding:100px 0 0 0;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+#oceanus h1{
+	padding:35px 0 10px 0;
+	display:inline-block;
+	font-family: 'Secular One', sans-serif;
+	font-weight:700;
+	color:#fff;
+	font-size:2em;
+}
+#oceanus h6{
+	text-align:center;
+	font-family: 'Secular One', sans-serif;
+	font-weight:400;
+	color:#fff;
+	font-size:1em;
+}
+#bar ul a{
+	text-decoration:none;
+	color:white;
+}
+#bar ul li{
+	padding:40px 10px 0 10px ;
+	display:inline-block;
+	font-family: 'Secular One', sans-serif;
+	font-weight:400;
+	color:#fff;
+	font-size:1em;
+}
+#octopus img{
+   position: relative;               
+   left:50%;
+   transform: translate(-50%);
+   width:100%;
+}
+#octopuson{
+  display:none;
+}
+#extra{
+	position:absolute;
+    word-wrap: break-word;
+	padding:10px 15px 15px 15px;
+}
+#extra p{
+	text-align:center;
+	color:#fff;
+	padding:0 0 15px 0; 
+	font-family: 'Montserrat', sans-serif;
+}
+#button{
+	width:90px;
+	height:30px;
+	border:1px solid #fff;
+	background:#5060b8;
+	font-family: 'Oswald', sans-serif;
+	color:#fff;
+}
+#range{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	gap:20px;
+	padding:10px 0;
+}
+#flexitem{
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	position:relative;
+	background:#5060b8;
+	border:1px solid #fff;
+}
+#social{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	color:#fff;
+	font-size:15px;
+}
+#box{
+	border-top: 1px solid #fff;
+	width:50px;
+	margin:20px 0 0 0;
+}
+
+@media only screen and (min-width: 768px){	
+header{
+	text-align:center;
+	position:relative;
+}
+nav{
+	padding:0;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+#oceanus h1{
+	padding:35px 15px 0 35px;
+	display:inline-block;
+	font-family: 'Secular One', sans-serif;
+	font-weight:700;
+	color:#fff;
+	font-size:2em;
+}
+#oceanus h6{
+	display:inline-block;
+	font-family: 'Secular One', sans-serif;
+	font-weight:400;
+	color:#fff;
+	font-size:1em;
+}
+#bar{
+	margin:0 50px 0 0;
+}
+#bar ul a{
+	text-decoration:none;
+	color:white;
+}
+#bar ul li{
+	padding:47px 15px 0 35px;
+	display:inline-block;
+	font-family: 'Secular One', sans-serif;
+	font-weight:400;
+	color:#fff;
+	font-size:1em;
+}
+#octopus img{
+   position: absolute;               
+   top: 50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+   width:850px;
+}
+#octopuson{
+   position: absolute;               
+   top: 60%;
+   left:50%;
+   transform: translate(-50%, -50%);
+   font-family: 'Secular One', sans-serif;
+   color: #abb9ff;
+   font-weight:400;
+   font-size:12em;
+   text-align: center;
+   display:inline-block;
+}
+
+#range{
+	position:absolute;
+	top:50%;
+	left:100%;
+	transform:translate(-100%,-50%);
+	display:flex;
+	flex-direction:column;
+	gap:20px;	
+	align-items:flex-end;
+	padding:0 20px 0 0;
+}
+#flexitem{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	position:relative;
+	background:#5060b8;
+	border:1px solid #fff;
+}
+#social{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	color:#fff;
+	font-size:20px;
+}
+#box{
+	border-right:1px solid #fff;
+	border-top:none;
+	height:150px;
+	margin:0 25px 0 0;
+}
+#extra{
+	position:absolute;
+	bottom:0;
+	width:400px;
+    word-wrap: break-word;
+	padding:0 0 45px 35px;
+}
+#extra p{
+	text-align:left;
+	color:#fff;
+	padding:0 0 15px 0; 
+	font-family: 'Montserrat', sans-serif;
+}
+#button{
+	width:90px;
+	height:30px;
+	border:1px solid #fff;
+	background:#5060b8;
+	font-family: 'Oswald', sans-serif;
+	color:#fff;
+	float:left;
+}
+}
